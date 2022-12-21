@@ -1,0 +1,11 @@
+.cards {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.pic {
+  position: absolute;
+  right: 57%;
+  top: -10%;
+  z-index: 2;
+}

@@ -1,17 +1,17 @@
 import React from "react";
 import Button from "../../../../Shared/Navbar/Components/Button";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import HeroCss from "./Hero.module.css";
+import "./Hero.css";
 const Hero = () => {
   return (
-    <div className="text-center h-[80vh] flex flex-col justify-center mx-auto w-2/3">
+    <div className="text-center lg:h-[80vh] flex flex-col justify-center mb-5 pt-2 mx-2 md:mx-auto md:w-2/3">
       <div className="overlay"></div>
       <div className="text-content border-2 border-slate-800 border-dotted border-opacity-10 backdrop-blur-2xl lg:p-5 shadow-xl hero">
         <h2 className="text-gray-300">
-          This is <span className={HeroCss.title}>AZIZUL</span>
+          This is <span className="title">AZIZUL</span>
         </h2>
         <h4 className="text-gray-300">React Developer || Mern Stack </h4>
-        <div className="CTA mt-5 flex flex-row-reverse gap-2 justify-center items-center">
+        <div className="CTA mt-5 flex flex-col md:flex-row-reverse gap-2 justify-center items-center">
           <Button className="">Hire Me</Button>
           <a
             href="https://drive.google.com/file/d/1gEeh-sdJtZCHPf62MYSO7DmOI_XBl0KZ/view?usp=share_link"

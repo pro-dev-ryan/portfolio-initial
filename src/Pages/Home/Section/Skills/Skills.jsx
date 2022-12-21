@@ -49,12 +49,19 @@ const Skills = () => {
   ];
   return (
     <div>
-      <div className="skill-card lg:my-10 border-l-2 border-gray-400  lg:p-5 lg:mx-10 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 backdrop-blur-xl rounded border-opacity-10">
+      <h3 className="backdrop-blur-lg w-fit ml-2 my-5 lg:ml-16 font-semibold text-gray-50 md:text-4xl text-2xl lg:mb-10 font-Head">
+        I Know
+      </h3>
+      <div className="skill-card py-3 lg:my-10 border-l-2 border-gray-400 lg:p-5 lg:mx-10 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 backdrop-blur-xl rounded border-opacity-10 bg-gray-300 bg-opacity-20 ">
         {skillSet.map((skill) => (
           <>
             <div className="card mx-auto lg:mb-8">
-              <img src={skill.src} className="mx-auto h-10 mb-3" alt="" />
-              <h4 className="text-center text-gray-300 font-Head">
+              <img
+                src={skill.src}
+                className="mx-auto md:h-10 h-7 my-2 mb-3"
+                alt=""
+              />
+              <h4 className="text-center text-gray-300 text-sm md:text-base font-Head">
                 {skill.name}
               </h4>
             </div>

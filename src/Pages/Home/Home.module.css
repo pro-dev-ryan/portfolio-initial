@@ -1,7 +1,6 @@
 .section {
   background-image: url("../../assets/bg.jpg");
   /* background-image: url("https://img.freepik.com/free-vector/vibrant-summer-ombre-background-vector_53876-105765.jpg?w=2000"); */
-  background-position: left;
   background-size: 300%;
   background-repeat: repeat-y;
   background-attachment: fixed;
