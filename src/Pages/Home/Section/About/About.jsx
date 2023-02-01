@@ -3,8 +3,11 @@ import img from "../../../../assets/front.png";
 import aboutCss from "./About.module.css";
 const About = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row-reverse lg:mx-10 rounded lg:py-8 md:flex-row justify-center md:gap-10 ">
-      <div className="sm:w-2/5 w-full p-5 bg-gray-300 bg-opacity-20 backdrop-blur-2xl rounded-md shadow-lg">
+    <div
+      id="about"
+      className="flex flex-col-reverse lg:flex-row-reverse lg:mx-10 rounded lg:py-8 md:flex-row justify-center md:gap-10 "
+    >
+      <div className="sm:w-2/5 w-full p-5 bg-gray-700 bg-opacity-20 backdrop-blur-2xl rounded-md shadow-lg">
         <h2 className={`${aboutCss.title} text-center md:mx-10 mb-5`}>
           Who am I?
         </h2>
@@ -28,7 +31,7 @@ const About = () => {
           <span></span>
         </div>
       </div>
-      <div className="block md:hidden w-full backdrop-blur-lg">
+      <div className="block md:hidden w-full">
         <img src={img} className="w-4/5 mx-auto mb-2" alt="" />
       </div>
     </div>

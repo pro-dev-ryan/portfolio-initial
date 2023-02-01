@@ -1,7 +1,7 @@
 import React from "react";
 import project1 from "../../../../assets/Projects/Arcadian.png";
 import project2 from "../../../../assets/Projects/Shine-Life.png";
-import project3 from "../../../../assets/Projects/Today's Journal.png";
+import project3 from "../../../../assets/Projects/Glass-Quiz.png";
 import PortfolioCards from "./PortfolioCards";
 import PortfolioMobile from "./PortfolioMobile";
 const Portfolio = () => {
@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      name: "Today's Journal",
+      name: "Skill-Test",
       img: project3,
       desc: "This is a simple news site designed with html and css, Third party APIs were used to show the news. To design UI, Tailwind-css has been used in here",
       c: "https://journals-today.netlify.app/",
@@ -44,7 +44,7 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div className="md:mx-8 mx-2 ">
+    <div id="portfolio" className="md:mx-8 mx-2 ">
       <h3 className="backdrop-blur-lg w-fit md:ml-10 font-semibold text-gray-50 my-3 md:my-0 text-2xl  md:text-4xl lg:mb-10 font-Head">
         Portfolio
       </h3>

@@ -49,10 +49,10 @@ const Skills = () => {
   ];
   return (
     <div>
-      <h3 className="backdrop-blur-lg w-fit ml-2 my-5 lg:ml-16 font-semibold text-gray-50 md:text-4xl text-2xl lg:mb-10 font-Head">
+      <h3 className="backdrop-blur-sm w-fit ml-2 my-5 lg:ml-16 font-semibold text-gray-50 md:text-4xl text-2xl lg:mb-10 font-Head">
         I Know
       </h3>
-      <div className="skill-card py-3 lg:my-10 border-l-2 border-gray-400 lg:p-5 lg:mx-10 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 backdrop-blur-xl rounded border-opacity-10 bg-gray-300 bg-opacity-20 ">
+      <div className="py-3 lg:my-10 border-l-4 border-gray-50 lg:p-5 lg:mx-10 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 backdrop-blur-sm rounded border-opacity-30 bg-gray-700 bg-opacity-20 ">
         {skillSet.map((skill) => (
           <>
             <div className="card mx-auto lg:mb-8">

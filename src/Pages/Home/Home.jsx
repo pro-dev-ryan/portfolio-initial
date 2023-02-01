@@ -8,7 +8,7 @@ import HomeCss from "./Home.module.css";
 import Portfolio from "./Section/Portfolio/Portfolio";
 const Home = () => {
   return (
-    <div className={`${HomeCss.section} pb-5`}>
+    <div className={`${HomeCss.section} pb-5 z-20`}>
       <Hero />
       <About />
       <Skills />

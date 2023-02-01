@@ -9,17 +9,17 @@ const Navbar = () => {
 
   let Links = [
     { name: "HOME", link: "/" },
-    { name: "ABOUT", link: "/about" },
-    { name: "PORTFOLIO", link: "/portfolio" },
+    { name: "ABOUT", link: "#about" },
+    { name: "PORTFOLIO", link: "#portfolio" },
     { name: "BLOG'S", link: "/blog" },
-    { name: "CONTACT", link: "/contact" },
+    { name: "CONTACT", link: "#contact" },
   ];
 
   return (
     <div className="shadow-md w-full sticky top-0 z-50">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div
-          className="font-bold text-2xl cursor-pointer flex items-center font-head 
+          className="font-bold text-lg  md:text-2xl cursor-pointer flex items-center font-head 
       text-gray-800"
         >
           Ryan's Space
@@ -39,12 +39,12 @@ const Navbar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-              <NavLink
-                to={link.link}
+              <a
+                href={link.link}
                 className="text-gray-800 hover:text-gray-400 duration-500"
               >
                 {link.name}
-              </NavLink>
+              </a>
             </li>
           ))}
           <Button>Resume</Button>

@@ -1,11 +1,11 @@
 .title {
   background-image: linear-gradient(
     to right,
-    rgba(98, 245, 164, 0.384),
+    rgba(17, 250, 122, 0.603),
     rgba(41, 173, 224, 0.849),
-    rgba(24, 224, 157, 0.671),
-    rgba(65, 245, 167, 0.753),
-    rgba(16, 95, 214, 0.781)
+    rgba(243, 213, 45, 0.877),
+    rgba(255, 255, 255, 0.753),
+    rgba(247, 37, 37, 0.781)
   );
   color: transparent;
   background-clip: text;

@@ -28,3 +28,8 @@
 .section {
   @apply mt-16 mx-2 md:mx-5;
 }
+@layer components {
+  .BTNcard {
+    @apply px-4 py-2 font-hyper rounded-md ring-0 hover:ring hover:bg-transparent ring-indigo-500 text-white hover:text-white bg-indigo-500 duration-150;
+  }
+}
