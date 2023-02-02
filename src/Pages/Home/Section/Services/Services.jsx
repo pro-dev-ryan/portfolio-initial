@@ -7,7 +7,7 @@ const Services = () => {
     "https://cdni.iconscout.com/illustration/premium/thumb/web-designer-6311239-5211311.png?f=webp";
   return (
     <div className="mb-5">
-      <h3 className="backdrop-blur-sm ml-2 lg:ml-10 text-4xl font-Head font-semibold w-fit text-white">
+      <h3 className="ml-2 lg:ml-10 text-4xl font-Head font-semibold w-fit text-white">
         My Offerings
       </h3>
       <div className="text-center flex flex-col justify-around mx-5 sm:flex-row sm:gap-5">

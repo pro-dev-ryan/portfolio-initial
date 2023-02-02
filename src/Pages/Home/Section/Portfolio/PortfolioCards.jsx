@@ -10,7 +10,9 @@ const PortfolioCards = ({ project }) => {
         >
           <img src={project.img} alt="project-1" className="rounded-xl" />
         </div>
-        <div className="bg-gray-900 bg-opacity-60 text-center rounded-xl lg:w-3/5 pb-5 m-3 p-2 pl-20 border-y-2 border-blue-700 border-opacity-50">
+        <div
+          className={`bg-gray-900 bg-opacity-60 text-center rounded-xl lg:w-3/5 pb-5 m-3 p-2 pl-20 border-y-2 border-blue-700 border-opacity-50 ${portCss.desc}`}
+        >
           <h1 className="title">{project.name}</h1>
           <p className="ml-10">{project.desc}</p>
           <p className="text-left ml-10 text-lg">Tech-Stack :</p>
