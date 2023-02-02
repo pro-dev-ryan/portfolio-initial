@@ -38,14 +38,20 @@ const Portfolio = () => {
       name: "Skill-Test",
       img: project3,
       desc: "This is a simple news site designed with html and css, Third party APIs were used to show the news. To design UI, Tailwind-css has been used in here",
-      c: "https://journals-today.netlify.app/",
-      l: "https://assi-10.web.app/",
-      tech: ["Html5", "EcmaScript 6", "TailwindCSS", "Css3"],
+      c: "https://github.com/pro-dev-ryan/FlashBrain.git",
+      l: "https://glass-quiz.netlify.app/",
+      tech: [
+        "Vite JS",
+        "React",
+        "TailwindCSS",
+        "Recharts",
+        "React-slick-carousel",
+      ],
     },
   ];
   return (
     <div id="portfolio" className="md:mx-8 mx-2 ">
-      <h3 className="backdrop-blur-lg w-fit md:ml-10 font-semibold text-gray-50 my-3 md:my-0 text-2xl  md:text-4xl lg:mb-10 font-Head">
+      <h3 className="backdrop-blur-sm w-fit md:ml-10 font-semibold text-gray-50 my-3 md:my-0 text-2xl  md:text-4xl lg:mb-10 font-Head">
         Portfolio
       </h3>
       <div className="hidden lg:block">

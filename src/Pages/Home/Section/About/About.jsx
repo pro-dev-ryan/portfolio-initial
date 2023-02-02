@@ -2,6 +2,34 @@ import React from "react";
 import img from "../../../../assets/front.png";
 import aboutCss from "./About.module.css";
 const About = () => {
+  const me = (
+    <div>
+      <p className="text-lg">
+        <span className="text-xl text-indigo-300">H</span>ello There!!!
+      </p>
+      <p className="text-lg">
+        {" "}
+        This Is Azizul A passionate tech enthusiast person. With experience as a
+        web developer, I've completed 10+ projects. Now I'm ready to utilize my
+        learning to structure new projects. Whose vision is to produce some
+        quality product for a company where I can grasp more experience and
+        evolve my expertise.
+      </p>
+      <p className="text-base">
+        I'm interested in web3.0 my goal is to evaluate new design where my
+        creativity has value.
+      </p>
+      <h5 className="text-lg font-semibold">My favourite quotes is:</h5>
+      <dl className="text-lg">
+        <blockquote>"Every professional Expert once was a fresher"</blockquote>
+        <blockquote>"don't act smart, play as the stupid one"</blockquote>
+        <blockquote>
+          "There is always scope for improvement, nothing is best from
+          beginning"
+        </blockquote>
+      </dl>
+    </div>
+  );
   return (
     <div
       id="about"
@@ -11,17 +39,7 @@ const About = () => {
         <h2 className={`${aboutCss.title} text-center md:mx-10 mb-5`}>
           Who am I?
         </h2>
-        <p className="text-gray-100">
-          Hey there! I'm Ryan. you can say I'm a tech guy. Actually I'm
-          enthusiast about programming world. It's so cool. As a developer I
-          think my life as a computer screen. What do I code today it shows me
-          how'll be the result tomorrow. If I kept thinking about the future
-          without doing nothing it doesn't gonna show anything right? So leave
-          thinking about tomorrow and do what the heart desires today. Because I
-          wanna see, how much I learned from the past. And it gonna help to
-          improve my life coding skill. Thanks for read this blah blah! Have a
-          good day. &#128522;
-        </p>
+        <p className="text-gray-100 text-base">{me}</p>
       </div>
       <div class={`${aboutCss.picsec} w-2/5 hidden lg:block`}>
         <div class={aboutCss.meimg}>

@@ -1,21 +1,21 @@
 .section {
-  background-image: url("../../assets/bg.jpg");
-  background-size: 300%;
-  background-repeat: repeat-y;
+  background-image: url("https://www.shutterstock.com/image-vector/doodle-seamless-pattern-web-development-260nw-1327971170.jpg");
+  padding-top: 120px;
+  background-repeat: repeat;
   background-attachment: fixed;
   position: relative;
-  z-index: 5;
+  /* filter: blur(2px); */
+  z-index: 1;
 }
 
 .section::before {
   position: absolute;
   content: "";
-  /* backdrop-filter: blur(3px); */
-  background-color: rgba(59, 59, 59, 0.534);
+  background-color: rgba(17, 17, 17, 0.877);
+  filter: blur(2px);
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  /* right: 0; */
   z-index: -1;
 }

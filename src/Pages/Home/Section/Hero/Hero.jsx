@@ -1,12 +1,18 @@
 import React from "react";
 import Button from "../../../../Shared/Navbar/Components/Button";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import "./Hero.css";
+import HeroSec from "./Hero.module.css";
 const Hero = () => {
   return (
-    <div className="text-center lg:h-[80vh] flex flex-col justify-center mb-5 pt-2 mx-2 md:mx-auto md:w-2/3">
-      <div className="overlay"></div>
-      <div className="text-content border-spacing-2 border-gray-900 border-opacity-70 z-20 lg:p-5 shadow hero">
+    <div
+      className={`text-center lg:h-full flex flex-col justify-center mb-5 pt-2 mx-2
+       border-spacing-2 border-gray-200 border-opacity-70 z-20 lg:p-5 shadow ${HeroSec.hero}
+       md:mx-auto rounded-lg md:w-2/3`}
+    >
+      <div className="overlay "></div>
+      <div
+        className={`text-content border-spacing-2 border-gray-200 border-opacity-70 z-20 lg:p-5 shadow ${HeroSec.hero}`}
+      >
         <h2 className="text-gray-300 text-2xl">
           This is <span className="title text-5xl">AZIZUL</span>
         </h2>
