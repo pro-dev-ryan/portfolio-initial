@@ -4,12 +4,14 @@ import portCss from "./Portfolio.module.css";
 const PortfolioCards = ({ project }) => {
   return (
     <div className={`${portCss.cards} flex flex-col justify-end items-end`}>
-      <div className="w-full flex gap-5 justify-end">
-        <div className={`h-64 w-1/3 overflow-hidden ${portCss.pic} p-3`}>
-          <img src={project.img} alt="project-1" className="ml-2" />
+      <div className="w-full flex gap-5 justify-end ">
+        <div
+          className={`w-1/3 h-64 overflow-clip rounded-xl border-2 border-opacity-30 shadow shadow-slate-400 border-gray-700 ${portCss.pic}`}
+        >
+          <img src={project.img} alt="project-1" className="rounded-xl" />
         </div>
-        <div className="bg-gray-700 bg-opacity-50 text-center rounded-xl lg:w-3/5 h-72 m-3 p-2 pl-20">
-          <h2 className="title">{project.name}</h2>
+        <div className="bg-gray-900 bg-opacity-60 text-center rounded-xl lg:w-3/5 pb-5 m-3 p-2 pl-20 border-y-2 border-blue-700 border-opacity-50">
+          <h1 className="title">{project.name}</h1>
           <p className="ml-10">{project.desc}</p>
           <p className="text-left ml-10 text-lg">Tech-Stack :</p>
           <div className="ml-11 mt-2 flex gap-3">

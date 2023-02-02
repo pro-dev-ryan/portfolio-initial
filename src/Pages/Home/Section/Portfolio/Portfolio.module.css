@@ -1,6 +1,7 @@
 .cards {
   position: relative;
-  margin-bottom: 1.5rem;
+  margin: 4rem 0;
+  backdrop-filter: blur(1px);
 }
 
 .pic {
