@@ -50,8 +50,8 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div id="portfolio" className="md:mx-8 mx-2 ">
-      <h3 className="backdrop-blur-sm w-fit md:ml-10 font-semibold text-gray-50 my-3 md:my-0 text-2xl  md:text-4xl lg:mb-10 font-Head">
+    <div id="portfolio" className="md:mx-8 mx-2  my-40">
+      <h3 className="w-fit md:ml-10 font-semibold text-gray-50 my-3 md:my-0 text-2xl  md:text-4xl lg:mb-10 font-Head">
         Portfolio
       </h3>
       <div className="hidden lg:block">

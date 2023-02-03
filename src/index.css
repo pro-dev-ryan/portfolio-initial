@@ -32,4 +32,10 @@
   .BTNcard {
     @apply px-4 py-2 font-hyper rounded-md ring-0 hover:ring hover:bg-transparent ring-indigo-500 text-white hover:text-white bg-indigo-500 duration-150;
   }
+  .effect {
+    @apply border-2 border-gray-700 shadow-sm shadow-white rounded;
+  }
+  .effectGlass {
+    @apply bg-gray-900 bg-opacity-70 rounded-md;
+  }
 }

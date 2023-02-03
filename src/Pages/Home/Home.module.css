@@ -4,15 +4,14 @@
   background-repeat: repeat;
   background-attachment: fixed;
   position: relative;
-  /* filter: blur(2px); */
   z-index: 1;
 }
 
 .section::before {
   position: absolute;
   content: "";
-  background-color: rgba(17, 17, 17, 0.877);
-  filter: blur(2px);
+  background-color: rgba(17, 17, 17, 0.904);
+  /* filter: blur(2px); */
   height: 100%;
   width: 100%;
   top: 0;

@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className=" border-y-2 border-opacity-50 border-gray-400 md:mx-8 rounded-lg lg:mt-10 mx-2 bg-gray-900 bg-opacity-70 py-5"
+      className=" md:mx-8 lg:mb-40 mx-2 effect effectGlass py-5"
     >
       <h4 className="text-center text-2xl md:text-3xl font-Head text-gray-200 my-2 md:mt-5">
         Let's discuss

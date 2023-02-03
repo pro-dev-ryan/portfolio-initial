@@ -33,9 +33,9 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col-reverse lg:flex-row-reverse lg:mx-10 rounded lg:py-8 md:flex-row justify-center md:gap-10 "
+      className="flex flex-col-reverse lg:flex-row-reverse lg:mx-10 rounded lg:py-8 my-40 md:flex-row justify-center md:gap-10 "
     >
-      <div className="sm:w-2/5 w-full p-5 bg-gray-900 bg-opacity-70 rounded-md shadow-lg">
+      <div className="sm:w-2/5 w-full p-5 effect effectGlass">
         <h2 className={`${aboutCss.title} text-center md:mx-10 mb-5`}>
           Who am I?
         </h2>

@@ -16,12 +16,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="shadow-md w-full sticky top-0 z-50">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
-        <div
-          className="font-bold text-lg  md:text-2xl cursor-pointer flex items-center font-head 
-      text-gray-800"
-        >
+    <div className="w-full sticky -top-3 z-50">
+      <div className="md:flex items-center justify-between bg-gray-900 py-4 md:px-10 px-7">
+        <div className="font-bold text-lg md:text-3xl cursor-pointer flex items-center font-head title">
           Ryan's Space
         </div>
 
@@ -33,7 +30,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full font-hyper  md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-gray-900 md:z-auto z-[-1] left-0 w-full font-hyper  md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             hide ? "top-20 " : "top-[-490px]"
           }`}
         >
@@ -41,7 +38,7 @@ const Navbar = () => {
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <a
                 href={link.link}
-                className="text-gray-800 hover:text-gray-400 duration-500"
+                className="text-white hover:text-gray-400 duration-500"
               >
                 {link.name}
               </a>

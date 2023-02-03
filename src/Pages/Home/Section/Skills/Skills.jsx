@@ -52,7 +52,7 @@ const Skills = () => {
       <h3 className="w-fit ml-2 my-5 lg:ml-16 font-semibold text-gray-50 md:text-4xl text-2xl lg:mb-10 font-Head">
         I Know
       </h3>
-      <div className="py-3 lg:my-10 border-l-4 border-gray-50 lg:p-5 lg:mx-10 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 rounded border-opacity-30 bg-gray-900 bg-opacity-60 ">
+      <div className="py-3 lg:my-10 border-l-8 border-gray-300 border-opacity-20 lg:p-5 lg:mx-10 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 effectGlass">
         {skillSet.map((skill) => (
           <>
             <div className="card mx-auto lg:mb-8">

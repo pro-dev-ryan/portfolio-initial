@@ -5,20 +5,17 @@ import HeroSec from "./Hero.module.css";
 const Hero = () => {
   return (
     <div
-      className={`text-center lg:h-full flex flex-col md:mt-20 md:mb-24 justify-center mb-5 mx-2
-       border-spacing-2 border-gray-200 border-opacity-70 z-20 lg:p-5 shadow ${HeroSec.hero}
-       md:mx-auto rounded-lg md:w-2/3 border-2 border-red-100`}
+      className={`text-center lg:h-full flex flex-col md:mt-20 md:mb-24 justify-center mb-5 mx-2 z-10 lg:p-5 ${HeroSec.hero}
+       md:mx-auto rounded-lg md:w-2/3 effect`}
     >
       <div className="overlay"></div>
-      <div
-        className={`text-content border-spacing-2 border-gray-200 border-opacity-70 z-20 lg:p-5 my-10`}
-      >
+      <div className={`text-content lg:p-5 my-10`}>
         <h2 className="text-gray-300 text-2xl">
-          This is <span className="title text-5xl">AZIZUL</span>
+          This is <span className="title text-5xl ml-2">AZIZUL</span>
         </h2>
         <h4 className="text-gray-300">Web Developer || Mern Stack </h4>
-        <div className="CTA mt-5 flex flex-col md:flex-row-reverse gap-2 justify-center items-center">
-          <Button className="">Hire Me</Button>
+        <div className="CTA mt-5 flex flex-col md:flex-row-reverse gap-2 md:gap-4 justify-center items-center">
+          <Button className="">See Projects</Button>
           <a
             href="https://drive.google.com/file/d/1gEeh-sdJtZCHPf62MYSO7DmOI_XBl0KZ/view?usp=share_link"
             download="Azizul-Resume"
