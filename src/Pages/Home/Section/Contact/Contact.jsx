@@ -30,10 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <div
-      id="contact"
-      className=" md:mx-8 lg:mb-40 mx-2 effect effectGlass py-5"
-    >
+    <div id="contact" className=" md:mx-8 lg:mb-40 mx-2 effectGlass py-5">
       <h4 className="text-center text-2xl md:text-3xl font-Head text-gray-200 my-2 md:mt-5">
         Let's discuss
       </h4>

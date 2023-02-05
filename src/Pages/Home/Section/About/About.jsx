@@ -35,7 +35,7 @@ const About = () => {
       id="about"
       className="flex flex-col-reverse lg:flex-row-reverse lg:mx-10 rounded lg:py-8 my-40 md:flex-row justify-center md:gap-10 "
     >
-      <div className="sm:w-2/5 w-full p-5 effect effectGlass">
+      <div className="sm:w-2/5 w-full p-5 effectGlass">
         <h2 className={`${aboutCss.title} text-center md:mx-10 mb-5`}>
           Who am I?
         </h2>

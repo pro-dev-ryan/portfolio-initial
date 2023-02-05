@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
       className={`text-center lg:h-full flex flex-col md:mt-20 md:mb-24 justify-center mb-5 mx-2 z-10 lg:p-5 ${HeroSec.hero}
-       md:mx-auto rounded-lg md:w-2/3 effect`}
+       md:mx-auto rounded-lg md:w-2/3 `}
     >
       <div className="overlay"></div>
       <div className={`text-content lg:p-5 my-10`}>

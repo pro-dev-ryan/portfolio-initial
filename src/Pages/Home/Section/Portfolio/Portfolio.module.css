@@ -1,12 +1,7 @@
-.cards {
-  position: relative;
-  margin: 4rem 0;
-}
-
 .pic {
   position: absolute;
-  right: 57%;
-  top: -10%;
+  left: 5%;
+  top: 13%;
   z-index: 2;
 }
 .desc {
