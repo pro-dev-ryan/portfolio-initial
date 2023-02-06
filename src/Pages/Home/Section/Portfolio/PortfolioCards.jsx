@@ -3,12 +3,10 @@ import portCss from "./Portfolio.module.css";
 
 const PortfolioCards = ({ project }) => {
   return (
-    <div className={`${portCss.cards} flex justify-center `}>
-      <div className="w-full flex gap-5 justify-end backdrop-blur-sm bg-gray-900 p-16 bg-opacity-50 effect">
+    <div className={`${portCss.cards} flex flex-col justify-center `}>
+      <div className="w-full flex gap-5 justify-end bg-gray-900 p-16 bg-opacity-5 effect md:my-10 my-4">
         <div className="flex justify-end relative">
-          <div
-            className={`w-1/3 h-64 overflow-clip rounded-xl border border-opacity-30 shadow shadow-slate-400 ${portCss.pic}`}
-          >
+          <div className={`w-1/3 h-56 overflow-clip rounded-xl ${portCss.pic}`}>
             <img src={project.img} alt="project-1" className="rounded-xl" />
           </div>
           <div
@@ -19,7 +17,7 @@ const PortfolioCards = ({ project }) => {
             <p className="text-left ml-10 text-lg">Tech-Stack :</p>
             <div className="ml-11 mt-2 flex gap-3">
               {project?.tech.map((t) => (
-                <div className="bg-gray-900 px-4 py-px rounded-xl ring ring-indigo-800">
+                <div className="bg-black bg-opacity-50 px-4 py-px rounded-xl ring ring-indigo-800">
                   <p className="hover:text-gray-400 text-gray-200 font-hyper w-fit">
                     {t}
                   </p>
